@@ -4,5 +4,5 @@ module.exports = {
     "**/?(*.)+(spec|test).[tj]s?(x)"
   ],
   testPathIgnorePatterns: ["/node_modules/"],
-  testRegex: "(/__tests__/.*|\\.(test|spec))\\.(js|jsx|ts|tsx)$"
+  // Премахни testRegex
 };
