@@ -27,5 +27,15 @@ jobs:
     - name: List files
       run: ls -R
 
+    - name: Debug
+      run: |
+        echo "Current directory:"
+        pwd
+        echo "Files in current directory:"
+        ls -R
+        echo "Content of __tests__/index.test.js:"
+        cat __tests__/index.test.js
+
     - name: Run tests
       run: npm test
+
