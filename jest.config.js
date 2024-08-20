@@ -1,8 +1,6 @@
 module.exports = {
-  testMatch: [
-    "**/__tests__/**/*.[jt]s?(x)",
-    "**/?(*.)+(spec|test).[tj]s?(x)"
-  ],
+  // Премахни testMatch
+  testRegex: "(/__tests__/.*|\\.(test|spec))\\.(js|jsx|ts|tsx)$",
   testPathIgnorePatterns: ["/node_modules/"],
-  // Премахни testRegex
 };
+
